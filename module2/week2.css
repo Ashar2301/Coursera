@@ -1,0 +1,87 @@
+h1
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards
+{
+    width: 28%;
+   margin: 8px 16px; 
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color: lightblue;
+   position: relative;
+}
+.text
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 8px;
+    margin: 5px 5px;
+    margin-top: 60px;
+}
+.title
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightcoral;
+    width: 110px;
+    height: 40px;
+    /* position: relative;
+    right: -271px; */
+    position: absolute;
+    right: 0px;
+    
+    border: 2px solid black;
+   border-radius: 5px;
+   border-top: none;
+   border-right: none;
+   text-align: center;
+   padding-top: 16px;
+}
+#beeftitle
+{
+    background-color: lightpink;
+}
+#sushititle
+{
+    background-color: lightslategray;
+}
+@media (min-width : 768px) and (max-width : 998px)
+{
+   
+     #chicken
+    {
+        width: 45%;
+    }
+    #beef
+    {
+        width: 45%;
+    }
+    #sushi
+    {
+        width: 100%;
+    } 
+}
+@media  (max-width : 767px)
+{
+    #chicken
+    {
+        width: 90%;
+    }
+    #beef
+    {
+        width: 90%;
+    }
+    #sushi
+    {
+        width: 90%;
+    } 
+}
+
